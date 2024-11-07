@@ -1,0 +1,14 @@
+Source: elvis-tiny
+Section: base
+Priority: standard
+Maintainer: Miquel van Smoorenburg <miquels@debian.org>
+Build-Depends: libncurses5-dev, debhelper (>= 8)
+Standards-Version: 3.9.6
+
+Package: elvis-tiny
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tiny vi compatible editor for the base system
+ Elvis-tiny is based on a 1991 Minix version of elvis. You should install
+ another vi-editor (such as "vim", "elvis" or "nvi") if you want a vi
+ editor that is full featured and has no bugs.
